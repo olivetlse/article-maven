@@ -1,0 +1,29 @@
+<project name="Article Maven">
+<skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-stylus-skin</artifactId>
+    <version>1.5</version>
+  </skin>
+ <publishDate position="right"/>
+	<version position="left"/>
+	
+	<body>
+ <links>
+    <item name="Developpez.com" href="http://www.developpez.com"/>
+    <item name="Maven" href="http://maven.apache.org"/>
+</links>
+<breadcrumbs>
+    <item name="Mes articles" href="http://baptiste-wicht.developpez.com/"/>
+    <item name="Article Maven" href="http://baptiste-wicht.developpez.com/tutoriel/java/maven/site"/>
+</breadcrumbs>
+<menu name="Article Maven">
+    <item name="Télécharger" href="download.html"/>
+    <item name="FAQ" href="faq.html"/>
+</menu>
+<menu name="Autres langues">
+    <item name="English" href="en/index.html"/>
+    <item name="Italiano" href="it/index.html"/>
+</menu>
+<menu ref="reports"/>
+    </body>
+</project>
