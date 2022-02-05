@@ -1,14 +1,13 @@
-
 pipeline {
   agent any
   tools {
-    maven 'maven'
+    maven 'maven-3.6.3' 
   }
-  
   stages {
-    stage ('clean') {
+    stage ('Build') {
       steps {
-        sh 'mvn clean'
+        sh 'mvn clean test'
       }
     }
-     }
+  }
+}
